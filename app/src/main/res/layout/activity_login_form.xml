@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="20dp"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    android:paddingTop="5dp"
+    tools:context=".ui.activities.LoginFormActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="@string/loginTitle"
+        android:textAlignment="center"
+        android:textSize="45sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputLoginMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        app:errorTextColor="@color/colorPriorityHigh">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etLoginMail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/loginMail"
+            android:inputType="textEmailAddress"
+            android:maxLength="30"
+            android:singleLine="true"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/inputLoginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        app:errorTextColor="@color/colorPriorityHigh">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/etLoginPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/loginPassword"
+            android:inputType="textPassword"
+            android:maxLength="8"
+            android:singleLine="true"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:paddingHorizontal="45dp"
+        android:paddingVertical="10dp"
+        android:text="@string/loginButton" />
+
+    <TextView
+        android:id="@+id/txtRegisterLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:inputType="textUri"
+        android:text="@string/loginRegister"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/txtOption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/loginOption"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/txtTrialLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:inputType="textUri"
+        android:text="@string/loginTrialAccount"
+        android:textAlignment="center" />
+</LinearLayout>

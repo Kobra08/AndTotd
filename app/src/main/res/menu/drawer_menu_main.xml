@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="drawer_nav_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_change_username"
+            android:icon="@drawable/ic_edit"
+            android:title="@string/nav_menu_changeUsername" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/nav_menu_settings" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/nav_menu_logout" />
+    </group>
+</menu>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--### Default ###-->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <!--### App v2 ###-->
+    <color name="primaryColor">#b2dfdb</color>
+    <color name="primaryDarkColor">#82ada9</color>
+    <color name="primaryAccentColor">#e5ffff</color>
+    <color name="secondaryColor">#5c6bc0</color>
+    <color name="secondaryDarkColor">#26418f</color>
+    <color name="secondaryAccentColor">#8e99f3</color>
+    <color name="colorBackground">#5A5A56</color>
+    <color name="colorPrimaryText">@color/black</color>
+    <color name="colorSecondaryText">@color/white</color>
+
+    <!--### Task title ###-->
+    <color name="colorTextDisabled">#aaa</color>
+    <color name="colorTextEnabled">@color/primaryAccentColor</color>
+
+    <!--### Task priority ###-->
+    <color name="colorPriorityHigh">#E53935</color>
+    <color name="colorPriorityMedium">#FDD835</color>
+    <color name="colorPriorityLow">#43A047</color>
+    <color name="colorPriorityNotAssigned">@color/colorTextDisabled</color>
+
+    <!--Selected item-->
+    <color name="row_selected">@color/secondaryColor</color>
+
+    <!--Splashscreen-->
+    <color name="splashscreen">#023A35</color>
+
+    <!--NavDrawer-->
+    <color name="nav_header">@color/primaryDarkColor</color>
+
+</resources>

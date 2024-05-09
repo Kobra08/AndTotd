@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--EditUsername Fragment-->
+    <dimen name="edit_text_margin_width">25dp</dimen>
+    <dimen name="edit_text_margin_height">30dp</dimen>
+
+    <!--NavDrawer-->
+    <dimen name="nav_header_icon_wsize">100dp</dimen>
+    <dimen name="nav_header_icon_hsize">100dp</dimen>
+    <dimen name="nav_header_icon_mbottom">10dp</dimen>
+    <dimen name="nav_header_padding">15dp</dimen>
+    <dimen name="nav_header_username_textsize">18sp</dimen>
+    <dimen name="nav_header_usermail_textsize">16sp</dimen>
+
+</resources>

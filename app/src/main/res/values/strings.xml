@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Taskete</string>
+    <string name="main_screen_title">Tasks</string>
+
+    <!--Task Form-->
+    <string name="title_input_hint">Task name</string>
+    <string name="desc_input_hint">Task description</string>
+    <string name="priority_input">Priority...</string>
+    <string name="due_time_input">Due Time...</string>
+    <string name="due_time_title">Set your task due time</string>
+    <string name="due_time_ok">OK</string>
+    <string name="due_time_cancel">CANCEL</string>
+    <string name="error_database_update">The task couldnt be updated</string>
+    <string name="error_database_add">The task couldnt be created</string>
+    <string name="save_task">Save</string>
+    <string name="save_loading_message">Saving task...</string>
+    <string name="feature_disabled">Save feature</string>
+    <string name="datetime_lower_error">The selected due time can\'t be lower than the current time</string>
+    <string name="form_input_error">One or more errors have ocurred</string>
+    <string name="form_title_required">"You must complete this field"</string>
+
+    <!--Task alert-->
+    <string name="alertTimeLeft">On track</string>
+    <string name="alertNoTimeLeft">Check it out now</string>
+
+    <!--Task priority-->
+    <string name="highPriorityOption">High</string>
+    <string name="lowPriorityOption">Low</string>
+    <string name="mediumPriorityOption">Medium</string>
+    <string name="noPriorityOption">Not assigned</string>
+
+    <!--Delete Confirmation dialog -->
+    <string name="deleteDialogTitle">Confirm Delete</string>
+    <string name="deleteDialogDesc">Do you want to delete these tasks?</string>
+    <string name="deleteDialogOK">YES</string>
+    <string name="deleteDialogNO">NO</string>
+
+    <!--Logout Confirmation Dialog-->
+    <string name="logoutDialogTitle">Logout</string>
+    <string name="logoutDialogDesc">Do you want to exit the session?</string>
+    <string name="logoutDialogOK">YES</string>
+    <string name="logoutDialogNO">NO</string>
+
+    <!--Settings-->
+    <string name="visualizationCategory">Visualization</string>
+    <string name="extraCategory">Extra</string>
+    <string name="showAddBtnTitlePref">Show Add Button</string>
+    <string name="showAddBtnSummaryPref">Set visibility of the Add Task button</string>
+    <string name="showCompletedTasksTitlePref">Show Completed Tasks</string>
+    <string name="showCompletedTasksSummaryPref">Allow to see the completed tasks</string>
+    <string name="showAboutMeTitlePref">About me</string>
+
+    <!--About me-->
+    <string name="app_description">App creada por el alumno Emmanuel Fernandez como proyecto de la materia de Programación IV</string>
+    <string name="app_repo_link">Link a Github</string>
+    <string name="app_version">v1.2</string>
+
+    <!--Notification-->
+    <string name="channelId">1</string>
+    <string name="channelName">Task Reminder</string>
+    <string name="channelDesc">You will be notified about the tasks that must be completed</string>
+    <string name="reminderTitle">It \'s time</string>
+
+    <!--Login form-->
+    <string name="loginTitle">@string/app_name</string>
+    <string name="loginUsername">Username</string>
+    <string name="loginMail">Email</string>
+    <string name="loginPassword">Password</string>
+    <string name="loginButton">Login</string>
+    <string name="loginRegister">No account? Register here!</string>
+    <string name="loginTrialAccount">Check our app without logging!</string>
+    <string name="loginOption">or</string>
+    <string name="loginError">Check credentials. Mail or password is invalid</string>
+    <string name="loginSuccess">Login successful</string>
+
+    <!--Trial mode-->
+    <string name="disclaimerOKDialog">OK</string>
+    <string name="disclaimerTitle">Disclaimer</string>
+    <string name="disclaimerDesc">This mode is exclusively to show the main screen UI. Several functionalities are disabled for now. </string>
+    <string name="saveFeature">is disabled in trial mode</string>
+    <string name="featureIsDisabled">is disabled in trial mode</string>
+
+    <!--Register form-->
+    <string name="registerTitle">Registration</string>
+    <string name="registerUsername">Username</string>
+    <string name="registerMail">Email</string>
+    <string name="registerPassword">Password</string>
+    <string name="registerConfirmPass">Confirm Password</string>
+    <string name="registerButton">Create account</string>
+    <string name="registerFieldsErrors">One or more fields are invalid</string>
+    <string name="registerError">The account couldn\'t be created</string>
+    <string name="registerSuccess">The account was created successfully</string>
+    <string name="usernameEmptyError">Username cannot be empty</string>
+    <string name="mailEmptyError">Mail cannot be empty</string>
+    <string name="mailRegexError">Mail format is not valid</string>
+    <string name="mailExistentError">Mail is registered</string>
+    <string name="passwordEmptyError">Password cannot be empty</string>
+    <string name="passwordLengthError">Password must have 4 characters or more</string>
+    <string name="passwordMismatchError">Password and confirm password not matching</string>
+
+    <!--Push notifications-->
+    <string name="push_notif_channel_title">Push notifications</string>
+    <string name="push_notif_channel_id">2</string>
+    <string name="push_notif_error">Fetching FCM registration token failed</string>
+    <string name="push_notif_title">Tip of the day</string>
+
+    <!--NavDrawer-->
+    <string name="nav_header_welcome_message">Welcome</string>
+    <string name="nav_header_user_mail">test@gmail.com</string>
+    <string name="nav_header_username">User</string>
+    <string name="nav_open_desc">Nav drawer is open</string>
+    <string name="nav_close_desc">Nav drawer is close</string>
+    <string name="nav_menu_changeUsername">Change username</string>
+    <string name="nav_menu_settings">Settings</string>
+    <string name="nav_menu_logout">Logout</string>
+    <string name="nav_header_default_username">User error</string>
+    <string name="nav_header_default_usermail">Mail error</string>
+    <string name="newUsername">New username</string>
+    <string name="changeUsernameError">The new username is empty</string>
+
+    <!--EditDialog-->
+    <string name="change_name_OK">@string/due_time_ok</string>
+    <string name="change_name_CANCEL">@string/due_time_cancel</string>
+
+    <!--Plurals-->
+    <plurals name="numberOfDeletedTasks">
+        <item quantity="one">%d task was deleted</item>
+        <item quantity="other">%d tasks were deleted</item>
+    </plurals>
+</resources>

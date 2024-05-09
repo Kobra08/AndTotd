@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:summary="@string/visualizationCategory">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="swShowAddBtn"
+            android:summary="@string/showAddBtnSummaryPref"
+            android:title="@string/showAddBtnTitlePref" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="swPrefShowCompletedTasks"
+            android:summary="@string/showCompletedTasksSummaryPref"
+            android:title="@string/showCompletedTasksTitlePref" />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etNewUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/edit_text_margin_width"
+        android:layout_marginEnd="@dimen/edit_text_margin_width"
+        android:layout_marginTop="@dimen/edit_text_margin_height"
+        android:layout_marginBottom="@dimen/edit_text_margin_height"
+        android:hint="@string/newUsername" />
+</LinearLayout>
